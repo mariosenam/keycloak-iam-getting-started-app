@@ -14,7 +14,7 @@ public class ItemsController {
 
   @GetMapping("/items")
   public String getItems(ModelMap modelMap) {
-    modelMap.put("items", Arrays.asList("Ordinateur", "Téléphone", "Lunettes", "Souris"));
+    modelMap.put("items", Arrays.asList("Ordinateur", "Téléphone", "Lunettes", "Souris", "Sac"));
     return "items";
   }
 
